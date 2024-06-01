@@ -45,10 +45,14 @@ h1, h2, h3, h4, h5, h6, p {
 /*------- Header -----------*/
 
 .header {
-border-bottom: 1px solid #e7e9fc
+border-bottom: 1px solid #e7e9fc;
+}
 
-
-.header-nav 
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
 
 
 .header-list {
@@ -88,7 +92,7 @@ padding: 24px 0;
 position: relative;
 }
 
-.header-list-link :hover,
+.header-list-link:hover,
 .header-list-link:focus {
 color: #404bbf 
 }
@@ -101,7 +105,7 @@ background: #404bbf;
 border-radius: 2px;
 position: absolute;
 left: 0;
-bottom: -1;
+bottom: 0;
 }
 
 .header-adress {
@@ -139,7 +143,6 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 background-repeat: no-repeat;
 background-position: center;
 block-size: cover;
-
 }
 
 .first-container {
