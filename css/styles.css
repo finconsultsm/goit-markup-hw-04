@@ -345,11 +345,13 @@ margin-bottom: 8px;
 }
 
 .link {
-    width: 100px;
-    border: 1px solid blueviolet;
+    width: 100%;
+    height: 100%;
+    background-color: #404bbf;
     border-color: blueviolet;
     border-radius: 50%;
-    border
+   display: flex;
+   align-items: center;
 }
 
 .team-link {
