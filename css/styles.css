@@ -145,6 +145,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 background-repeat: no-repeat;
 background-position: center;
 block-size: cover;
+max-width: 1440px;
 }
 
 .first-container {
