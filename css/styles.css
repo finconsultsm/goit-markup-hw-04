@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header {
 border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -126,7 +127,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .header-adress-link:hover,
 .header-adress-link:focus {
 color: #404bbf;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -397,7 +397,7 @@ margin-bottom: 72px;
 
 .portfolio-block:hover,
 .portfolio-block:focus {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
 }
 
 .portfolio-item {
