@@ -484,6 +484,7 @@ padding: 100px 0;
 
 .container-core {
 display: flex;
+align-items: baseline;
 }
 
 .container-footer {
@@ -492,6 +493,7 @@ margin-right: 120px;
 
 .container-footer-social {
 align-items: baseline;
+
 }
 
 .footer-logo {
@@ -526,6 +528,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+align-items: baseline;
 }
 
 .footer-icon-item {
